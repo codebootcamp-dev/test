@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.CSS_레이아웃 {
+  width: 1920px;
+  height: 1208px;
+}
+
+.CSS_가장큰배경 {
+  width: 1920px;
+  height: 1208px;
+  background-image: url("./assets/BG1.png");
+  background-size: cover;
+}
+
+
+
+
+
+.CSS_헤더 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  padding: 0px 80px;
+}
+
+.CSS_왼쪽헤더 {
+  width: calc(480px - 80px);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.CSS_왼쪽헤더_가운데버튼 {
+  margin: 20px;
+}
+
+
+
+
+
+.CSS_사이드바_레이아웃 {
+  display: flex;
+}
+
+.CSS_사이드바 {
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.CSS_사이드메뉴 {
+  width: 1760px;
+  height: 1048px;
+  background-image: url("./assets/BG2.png");
+  display: flex;
+}
+
+.CSS_사이드바_왼쪽부분 {
+  width: 400px;
+  padding: 20px;
+}
+
+.CSS_사이드바_왼쪽부분_항목 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px;
+}
+.CSS_사이드바_왼쪽부분_제목 {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+
+
+
+
+.CSS_회원가입영역 {
+  width: calc(1360px - 680px);
+  padding: 40px 60px;
+}
+
+.CSS_회원가입_제목 {
+  color: #491449;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 56px;
+  margin-bottom: 40px;
+}
+
+.CSS_회원가입사진영역 {
+  width: 680px;
+  height: 1048px;
+  background-image: url("./assets/일러스트\ 이미지\ 마스크.png");
+}
